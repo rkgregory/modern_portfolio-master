@@ -144,8 +144,16 @@ header {
   color: #000000; }
 
 main {
+  margin: auto;
+  width: 100%;
+  text-align: center;
   padding: 4rem;
   min-height: calc(100vh - 60 px); }
+  main .rg-logo {
+    width: 60%; }
+  main .custom-container {
+    height: 100%;
+    margin-top: 30vh; }
   main .icons {
     margin-top: 1rem; }
     main .icons a {
